@@ -1,13 +1,15 @@
 import React from 'react';
 import Splash from './splash'
 import UserCache from './user_cache'
+import Nav from './nav'
 import {Route, Switch, HashRouter} from 'react-router-dom';
 
 
 const Lrl = () => (
         <div className="container">
             <div>
-                <h1>adsgsdgs</h1>
+                <h1>LRU</h1>
+                <Nav/>
                 <HashRouter>
                     <Switch>
                         <Route exact path='/home' component={Splash} />
