@@ -19,11 +19,6 @@ class Api::RecordsController < ApplicationController
     #     render "api/records/show"
     # end
 
-    # def index 
-    #     @user = current_user 
-    #     render "api/records/index"
-    # end 
-
     # def destroy 
     #     @record = Record.find(params[:id])
     #     # @user = User.find_by(id: @record.user_id)
