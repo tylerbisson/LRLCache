@@ -9,6 +9,7 @@ export default function Splash() {
                 url: `users/index`
             }).then(data => {
                 setUsers(data)
+                console.log(data)
             })
     }, []);
 
